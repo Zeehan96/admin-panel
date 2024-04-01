@@ -1,0 +1,208 @@
+/* --------------------------------------- */
+/* General css starts here */
+/* --------------------------------------- */
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+span,
+.color,
+.color:hover {
+    color: #00A95A;
+    text-decoration: none;
+}
+
+.background-color {
+    background-color: #CEF3E1;
+    padding: 200px 50px 150px 50px;
+
+}
+
+.m-logo,
+.background-color .fa-solid,
+.m,
+.dashboard-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links,
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+/* --------------------------------------- */
+/* General css ends here */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* Login page css starts here */
+/* --------------------------------------- */
+
+.logo {
+    width: 130px;
+}
+
+.back {
+    background-image: url(../images/Login.png);
+    background-size: cover;
+    padding: 320px 0px;
+    background-repeat: no-repeat;
+}
+
+.relax {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(185, 177, 177);
+    border-radius: 50%;
+
+}
+
+.invalid {
+    background-color: rgb(185, 177, 177);
+}
+
+.valid {
+    background-color: #00A95A;
+}
+
+.m-logo {
+    height: 30px;
+    width: 30px;
+    background: #C4CDD6;
+    color: white;
+    border-radius: 50%;
+}
+
+
+/* --------------------------------------- */
+/* Login page css ends here */
+/* --------------------------------------- */
+
+.signup h1 {
+    font-size: 29px;
+}
+
+.background-color .fa-solid {
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 7px;
+}
+
+.singn-icon,
+.radio {
+    display: flex;
+    align-items: center;
+}
+
+.singn-icon p {
+    margin-left: 5px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.radio p {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.sign-text {
+    padding-left: 15px;
+}
+
+/* dashboard layout */
+.m {
+    background-color: #F4FDF8;
+    padding: 15px 0px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.m p {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.card {
+    padding: 40px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card .fa-solid {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 22px;
+}
+
+.gree .fa-solid {
+    background-color: #CDEEB9;
+    color: #2F9120;
+}
+
+.gree {
+    background-color: #EAFCD4;
+    color: #145F12;
+}
+
+.blu {
+    background-color: #D0F2FE;
+    color: #042978;
+
+}
+.card-red{
+    background-color: #FFE7DA;
+    color: #6E132A;
+}
+.card-red .fa-solid{
+    background-color: #F3C7BE;
+}
+
+.blu .fa-solid {
+    background-color: #B0D8F3;
+}
+/* dashboard css */
+form a{
+    margin-top: 0px;
+    color: white;
+}
+
+/* --------------------------------------- */
+/* media qurie are starts here here */
+/* --------------------------------------- */
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 11px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
